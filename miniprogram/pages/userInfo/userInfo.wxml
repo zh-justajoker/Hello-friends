@@ -1,0 +1,39 @@
+<!--pages/userInfo/userInfo.wxml-->
+<view class="userInfo">
+	<navigator url="./head/head" open-type="navigate">
+		<view class="userInfo_list_item">
+			<text>编辑头像</text>
+			<text class="iconfont icon-youjiantou"></text>
+		</view>
+	</navigator>
+	<navigator url="./name/name" open-type="navigate">
+		<view class="userInfo_list_item">
+			<text>编辑昵称</text>
+			<text class="iconfont icon-youjiantou"></text>
+		</view>
+	</navigator>
+	<navigator url="./signature/signature" open-type="navigate">
+		<view class="userInfo_list_item">
+			<text>编辑个性签名</text>
+			<text class="iconfont icon-youjiantou"></text>
+		</view>
+	</navigator>
+	<navigator url="./location/location" open-type="navigate">
+		<view class="userInfo_list_item">
+			<text>位置共享</text>
+			<text class="iconfont icon-youjiantou"></text>
+		</view>
+	</navigator>
+	<navigator url="./phone/phone" open-type="navigate">
+		<view class="userInfo_list_item">
+			<text>设置手机号 <text style="color:red; font-size:10px">手机号仅好友可见</text></text>
+			<text class="iconfont icon-youjiantou"></text>
+		</view>
+	</navigator>
+	<navigator url="./weixin/weixin" open-type="navigate">
+		<view class="userInfo_list_item">
+			<text>设置微信号 <text style="color:red; font-size:10px">微信号仅好友可见</text></text>
+			<text class="iconfont icon-youjiantou"></text>
+		</view>
+	</navigator>
+</view>

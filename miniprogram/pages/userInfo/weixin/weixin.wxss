@@ -1,0 +1,11 @@
+/* miniprogram/pages/userInfo/weixin/weixin.wxss */
+input{
+  border: 1px #b4b5b6 solid;
+  width: 685rpx;
+  margin: 20rpx;
+  margin-top: 100rpx;
+  margin-bottom: 50rpx;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  font-size: 25rpx;
+}

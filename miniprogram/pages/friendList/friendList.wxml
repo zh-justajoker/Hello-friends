@@ -1,0 +1,13 @@
+<!--pages/friendList/friendList.wxml-->
+<view class="frindList">
+	<text>好友列表：</text>
+	<navigator wx:for="{{friendList}}" wx:key="*this" url="{{'../detail/detail?userId='+item._id}}" open-type="navigate">
+		<view class="frindList_item">
+			<view>
+				<image src="{{item.Userimg}}"></image>
+				<text>{{item.nickName}}</text>
+			</view>
+			<text class="iconfont icon-youjiantou"></text>
+		</view>
+	</navigator>
+</view>

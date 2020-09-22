@@ -1,0 +1,34 @@
+/* pages/owner/owner.wxss */
+.owner_info{
+  height: 150rpx;
+  border: 1px solid #b4b5b6;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+}
+.owner_info image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 30rpx;
+}
+.owner_info text{
+  margin-left: 15rpx;
+}
+.owner_info button{
+  margin: 0;
+  margin-left: 70rpx;
+}
+.owner_list{
+  margin-top: 50rpx;
+}
+.owner_list_item{
+  height: 50rpx;
+  border-bottom: 1px #b4b5b6 dashed;
+  padding: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

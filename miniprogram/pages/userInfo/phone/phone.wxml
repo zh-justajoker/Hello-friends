@@ -1,0 +1,3 @@
+<!--miniprogram/pages/userInfo/phone/phone.wxml-->
+<input type="number" value="{{phoneNumber}}" bindinput="headText" placeholder="输入手机号(为11位数字)" placeholder-style="font-size:18rpx;" ></input>
+<button bindtap="handleBtn" type="primary">设置手机号</button>

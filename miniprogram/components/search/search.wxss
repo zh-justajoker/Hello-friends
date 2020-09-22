@@ -1,0 +1,79 @@
+/* components/search/search.wxss */
+.container{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 90rpx;
+  z-index: 999;
+  overflow: hidden;
+}
+.containerFocus{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: #ccc;
+}
+.search{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 20rpx;
+}
+.search_text{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 60rpx;
+  border: 1px #b4b5b6 solid;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  background: white;
+}
+.search_text input{
+  flex: 1;
+}
+.search_text .icon-sousuo{
+  margin: 0 10rpx;
+}
+.search_cancel{
+   margin: 0 15rpx;
+}
+.search_history{
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx;
+  margin-bottom: 50rpx;
+}
+.search_history_btn{
+  margin: 20rpx;
+  margin-bottom: 30rpx;
+}
+.search_history_btn text{
+  border: 1px #b4b5b6 solid;
+  padding:10rpx 20rpx;
+  background: white;
+  border-radius: 20rpx;
+  margin: 10rpx;
+}
+.searchList_item{
+  height: 120rpx;
+  border-bottom: 1px #b4b5b6 dashed;
+  padding:15rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+.searchList_item view{
+  display: flex;
+  align-items: center;
+}
+.searchList_item image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}

@@ -1,0 +1,7 @@
+<!--miniprogram/pages/userInfo/head/head.wxml-->
+<view class="v1">说明：使用微信头像按钮可直接设置头像为当前微信头像</view>
+<view class="v2"><image mode="aspectFill" src="{{Userimg}}" bindtap="handleImg"></image></view>
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="warn">使用微信头像</button>
+<button bindtap="handleBtn" type="primary">自定义头像</button>
+
+

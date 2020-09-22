@@ -1,0 +1,21 @@
+/* pages/friendList/friendList.wxss */
+.frindList{
+  margin-top: 50rpx;
+}
+.frindList_item{
+  height: 120rpx;
+  border-bottom: 1px #b4b5b6 dashed;
+  padding:15rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.frindList_item view{
+  display: flex;
+  align-items: center;
+}
+.frindList_item image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}

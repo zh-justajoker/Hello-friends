@@ -1,0 +1,47 @@
+/* miniprogram/pages/index/index.wxss */
+.index_swp{
+  margin: 15rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  height: 300rpx;
+  margin-top: 100rpx;
+}
+.index_swp image{
+  width:100%;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.index_tab{
+  display: flex;
+}
+.index_tab view{
+  flex: 1;
+  text-align: center;
+  padding: 10rpx;
+  margin: 10rpx;
+}
+.index_tab view.active{
+  border-bottom: 2px red solid;
+  color: red;
+}
+.index_list{
+  display: flex;
+  flex-wrap: wrap;
+  color:	MediumOrchid;
+}
+.index_list_item{
+  width: 50%;
+  margin: 10rpx 0;
+}
+.index_list_item image{
+  width: 90%;
+  height: 250rpx;
+  margin: 0 auto;
+  display: block;
+}
+.index_list_text{
+  margin: 0 auto;
+  width: 80%;
+  display: flex ;
+  justify-content: space-between;
+}

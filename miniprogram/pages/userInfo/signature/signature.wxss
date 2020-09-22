@@ -1,0 +1,10 @@
+/* miniprogram/pages/userInfo/signature/signature.wxss */
+textarea{
+  border: 1px #b4b5b6 solid;
+  width: 685rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  font-size: 25rpx;
+}

@@ -1,0 +1,13 @@
+/* pages/userInfo/userInfo.wxss */
+.userInfo{
+  margin-top: 50rpx;
+}
+.userInfo_list_item{
+  height: 50rpx;
+  border-bottom: 1px #b4b5b6 dashed;
+  padding:15rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}

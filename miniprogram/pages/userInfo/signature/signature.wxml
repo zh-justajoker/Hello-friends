@@ -1,0 +1,4 @@
+<!--miniprogram/pages/userInfo/signature/signature.wxml-->
+<textarea placeholder="输入个性签名" placeholder-style="font-size:18rpx;" value="{{signature}}" bindinput="headText"></textarea>
+<button bindtap="handleBtn" type="primary">设置个性签名</button>
+

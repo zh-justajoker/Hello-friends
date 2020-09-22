@@ -1,0 +1,5 @@
+<!--miniprogram/pages/userInfo/name/name.wxml-->
+<view class="v1">说明：使用微信昵称按钮可直接设置昵称为当前微信昵称</view>
+<input type="text" value="{{nickName}}" bindinput="headText" placeholder="输入新昵称" placeholder-style="font-size:18rpx;" ></input>
+<button bindtap="handleBtn" type="primary">设置新昵称</button>
+<button class="b1" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="warn">使用微信昵称</button>

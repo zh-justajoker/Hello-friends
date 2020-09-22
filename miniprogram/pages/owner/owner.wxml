@@ -1,0 +1,29 @@
+<!--pages/owner/owner.wxml-->
+<view class="owner">
+   <view class="owner_info">
+    <image src="{{ownerPhoto}}"></image>
+    <text wx:if="{{logged}}" >欢迎您：{{nickName}}</text>
+     <button wx:else disabled="{{disabled}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="primary">微信登录</button>
+   </view>
+
+   <view wx:if="{{logged}}" class="owner_list">
+      <navigator url="../userInfo/userInfo" open-type="navigate">
+        <view class="owner_list_item">
+           <text>编辑个人信息</text>
+           <text class="iconfont icon-youjiantou"></text>
+        </view>
+      </navigator>
+      <navigator url="../friendList/friendList" open-type="navigate">
+        <view class="owner_list_item">
+           <text>查看好友列表</text>
+           <text class="iconfont icon-youjiantou"></text>
+        </view>
+      </navigator>
+      <navigator url="{{'../detail/detail?userId='+id}}" open-type="navigate">
+        <view class="owner_list_item">
+           <text>个人主页</text>
+           <text class="iconfont icon-youjiantou"></text>
+        </view>
+      </navigator>
+   </view>
+</view>
